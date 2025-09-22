@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { fetchLeaderboards } from '../lib/lichessApi';
+import { getLeaderboard } from '../lib/lichessApi';
 import { LeaderboardEntry } from '../types';
 
 const Leaderboard: React.FC = () => {
@@ -10,7 +10,7 @@ const Leaderboard: React.FC = () => {
     useEffect(() => {
         const getLeaderboards = async () => {
             try {
-                const data = await fetchLeaderboards();
+                const data = await getLeaderboard();
                 setLeaderboard(data);
             } catch (err) {
                 setError('Failed to fetch leaderboards');
