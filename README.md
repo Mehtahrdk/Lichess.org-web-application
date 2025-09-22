@@ -5,7 +5,7 @@ A simple web application built with Next.js and TypeScript that interacts with t
 ## 🚀 Live Demo
 
 You can view the live deployed version here:
-[View Live Deployment](lichess-org-web-application-f1cjipxdn.vercel.app)
+[View Live Deployment](https://lichess-org-web-application-f1cjipxdn.vercel.app)
 ## ✨ Features
 
 * **Profile Search:** Search for any Lichess user and view their ratings.
